@@ -7,7 +7,6 @@ import java.util.List;
 
 public class Puzzle1 {
     public static void main(String[] args) {
-        var file = new File("input.txt");
         try (var inputStream = Puzzle1.class.getResourceAsStream("input.txt")) {
             var bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
 
